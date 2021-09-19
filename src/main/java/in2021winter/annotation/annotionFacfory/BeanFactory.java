@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  */
 
 @Component("proxyService")
-@Aspect   //表示当前类是一个切面类
+@Aspect   //表示当前类是一个切面类，必须写这个
 public class BeanFactory {
 
     @Autowired
